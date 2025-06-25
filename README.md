@@ -63,7 +63,7 @@ Downloaded the dataset from LMs containing Amazon Product transactions, includin
 
 - Price Bucket(Range) = If([@[actual price]]<200,"<#200",If([@[actual price]]<=500,"#200-#500",">#500])
 
-- Ensured proper data types were assigned (e.g., d text, number).
+- Ensured proper data types were assigned (e.g.,text, number).
 
 -  Data Exploration (Excel)
 1. Used Excel functions (like SUMIFS, AVERAGEIFS, COUNTIFS) to summarize key metrics.
@@ -72,15 +72,15 @@ Downloaded the dataset from LMs containing Amazon Product transactions, includin
 
 - Data Visualization (Microsoft Excel)
   
-1. Built interactive visuals: bar charts, slicers, pie charts, KPIs, and maps.
+1. Built interactive visuals: bar charts, slicers, pie charts.
 
 2. Designed reports to track regional sales, category performance, top-selling products, and more.
 
 - Business Questions Answered
-  1.Analyzed metrics such as Potential Revenue, average rating, most profitable product category, and        return rates.
+  1.Analyzed metrics such as Potential Revenue, average rating, most profitable       product category, and return rates.
 - Insight Generation
  1. Derived conclusions based on visual and statistical evidence.
- 2. Identified high-performing regions, areas of customer dissatisfaction, and seasonal purchase trends.
+ 2. Identified high-performing category, Product rating distribution.
 
 -  Documentation and Reporting
   1. Summarized key insights and included screenshots of dashboards.
@@ -99,7 +99,7 @@ Downloaded the dataset from LMs containing Amazon Product transactions, includin
 
 ####  What is the total number of reviews per category?
 ![Question 3 (chart)](https://github.com/user-attachments/assets/520b9cba-4495-4501-91f0-1951fc3fc932)
-- The above chart provide the Total Number of Review Per Category with Electronic to be Highest Number of review while Car and Motorbike having the Lowest Number of review and reasoned for this answer can deduced from the Number of Product Listed Under each Category.
+- The above chart provide the Total Number of Review Per Category with Electronic to be Highest Number of review while Car and Motorbike having the Lowest Number of review and reasoned for this answer can be deduced from the Number of Product Listed Under each Category.
 
   #### Which products have the highest average ratings? (Question 4)
   The products with the Highest Average Rating (426973) are 
@@ -147,6 +147,16 @@ Low-revenue categories with high ratings and low visibility may be a sign of unt
   Low end items (<#200) account for only 3% of total listings, highlighting a potential growth opportunity in the Low cost segment.”
 
 ![image](https://github.com/user-attachments/assets/f5a35f22-c865-4373-8052-8c141e165c07)
+
+#### How does the rating relate to the level of discount?
+The scatter graph below shows the following;
+An analysis of the relationship between discount level and product rating shows a positive trendline, but with an R² value near zero (2E-13) and a correlation coefficient of ~0.
+This indicates no significant correlation between how much a product is discounted and the rating it receives.
+Customer satisfaction (as reflected by ratings) appears to be influenced more by product quality or user experience than by price discounts.
+
+![image](https://github.com/user-attachments/assets/9bde3ef2-df6a-4889-9e5f-6ee551a91238)
+
+#### How many products have fewer than 1,000 reviews?
 
 
 
