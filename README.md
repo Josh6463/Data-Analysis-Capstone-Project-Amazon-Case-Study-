@@ -157,7 +157,45 @@ Customer satisfaction (as reflected by ratings) appears to be influenced more by
 ![image](https://github.com/user-attachments/assets/9bde3ef2-df6a-4889-9e5f-6ee551a91238)
 
 #### How many products have fewer than 1,000 reviews?
+ Here is a step by step process usded for the calculation of the products with less than 1000 reviews;
+ - Insert a Pivot Table
+ - Select the full range of your dataset.
+ - Go to Insert > PivotTable.
+ - Build the Pivot Table
+ - Drag Product ID to the Rows area.
+ - Drag Rating Count to the Values area:
+ - It shows default to Sum of Rating Count.
+ -  Apply a Value Filter (Less Than 1000)
+ - Click the drop-down arrow on Row Labels (Product ID).
+ - Choose Value Filters > Less Than...
+ - In the dialog:
+ - Select Sum of Rating Count
+ - Set it to less than 1000
+This gives the number of products with less than 1000 review to be 302.
 
+##### The following Insight could be deduced from the Analysis;
+- Products with fewer than 1000 ratings may suffer from low visibility or customer engagement.
+- High-rated but low-reviewed products should be prioritized for marketing campaigns.
+- Consider incentivizing reviews or bundling these products to increase exposure.
+- Track their performance in future analyses to determine growth potential.
+
+
+  #### Which categories have products with the highest discounts?
+  The Categories that have products with the highest discouts are,
+  1. Electronics
+  2. Car & Motorbike
+  3. Health & Personal care
+     The Electronics category contains the product with the highest discount, reflecting the industry’s tendency to use aggressive discounting strategies — possibly due to product obsolescence, inventory clearance, or promotional campaigns.”
+
+#### Identify the top 5 products in terms of rating and number of reviews combined.
+
+The top 5 products in terms of rating and number of reviews are 
+- product with ID of B014I85SSDO
+- product with ID of B014I8sx4Y
+- product with ID of B07KsMBL2H
+- product with ID of B071Z8M4KX
+- product with ID of B07GQD4k6L
+ 
 
 
    
