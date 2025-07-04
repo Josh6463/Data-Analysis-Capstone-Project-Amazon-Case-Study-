@@ -51,10 +51,10 @@ Using your cleaned dataset and pivot outputs, build an Excel dashboard. Unleash 
 Creativity.
 
 ### ANALYTICAL PROCESSES
-         Data Collection
+- ## Data Collection
 Downloaded the dataset from LMs containing Amazon Product transactions, including columns such as Product ID, Rating, Rating Count, Category,Product Name, Discount, Actual Price, and some other Important Data for the Analysis.
 
-       Data Cleaning
+- ## Data Cleaning
 - Extraction of Data (Main category) from the Category usig Excel function  ````= left(D2,find("|",D2&"|")- 1)````. This formulae help to extract the First Statement before the first "|" in the category column.
 - formatted a new column that contains the data set extracted from the Category and Named the Column "Main Category"
 - Created the needed Column for answering the Analytical Questions like the Potential Revenue, Price Range(Bucket) using the below formula                                                        
@@ -64,7 +64,7 @@ Downloaded the dataset from LMs containing Amazon Product transactions, includin
 
 - Ensured proper data types were assigned (e.g.,text, number).
 
--  Data Exploration 
+-  DATA EXPLORATION 
 1. Used Excel functions (like SUMIFS, AVERAGEIFS, COUNTIFS) to summarize key metrics.
 
 2. Created pivot tables and charts to uncover sales patterns, returns, and customer distribution.
