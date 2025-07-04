@@ -148,14 +148,14 @@ Low-revenue categories with high ratings and low visibility may be a sign of unt
 
    ![image](https://github.com/user-attachments/assets/c5ae146a-e9f8-4e52-be01-10fdc5d9aa3f)
 
-#### What is the number of unique products per price range bucket (e.g., <₹200,
+#### Q10 What is the number of unique products per price range bucket (e.g., <₹200,
 ₹200–₹500, >₹500)
 - The price bucket analysis reveals that 85% of products fall within the range of >500, 12% falls within the of ₦200-₦500range and 3% falls within the range of <#200, indicating Amazon focus on Premium consumer items.
   Low end items (<#200) account for only 3% of total listings, highlighting a potential growth opportunity in the Low cost segment.”
 
 ![image](https://github.com/user-attachments/assets/f5a35f22-c865-4373-8052-8c141e165c07)
 
-#### How does the rating relate to the level of discount?
+#### Q11 How does the rating relate to the level of discount?
 The scatter graph below shows the following;
 An analysis of the relationship between discount level and product rating shows a positive trendline, but with an R² value near zero (2E-13) and a correlation coefficient of ~0.
 This indicates no significant correlation between how much a product is discounted and the rating it receives.
@@ -163,7 +163,7 @@ Customer satisfaction (as reflected by ratings) appears to be influenced more by
 
 ![image](https://github.com/user-attachments/assets/9bde3ef2-df6a-4889-9e5f-6ee551a91238)
 
-#### How many products have fewer than 1,000 reviews?
+#### Q12 How many products have fewer than 1,000 reviews?
  Here is a step by step process usded for the calculation of the products with less than 1000 reviews;
  - Insert a Pivot Table
  - Select the full range of your dataset.
@@ -187,14 +187,14 @@ This gives the number of products with less than 1000 review to be 302.
 - Track their performance in future analyses to determine growth potential.
 
 
-  #### Which categories have products with the highest discounts?
+  #### Q13 Which categories have products with the highest discounts?
   The Categories that have products with the highest discouts are,
   1. Electronics
   2. Car & Motorbike
   3. Health & Personal care
      The Electronics category contains the product with the highest discount, reflecting the industry’s tendency to use aggressive discounting strategies — possibly due to product obsolescence, inventory clearance, or promotional campaigns.”
 
-#### Identify the top 5 products in terms of rating and number of reviews combined.
+#### Q14 Identify the top 5 products in terms of rating and number of reviews combined.
 
 The top 5 products in terms of rating and number of reviews are 
 - product with ID of B014I85SSDO
