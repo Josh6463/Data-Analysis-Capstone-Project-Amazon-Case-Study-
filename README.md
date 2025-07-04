@@ -106,15 +106,13 @@ Downloaded the dataset from LMs containing Amazon Product transactions, includin
    2. Product with Product ID of B014I8X4Y
 
   #### Q5 What is the average actual price vs the discounted price by category?
-![image](https://github.com/user-attachments/assets/83c1ced3-4c30-470e-bd77-1e6e6ca762bb)
-
-The chart above shows the products with the highest number of reviews
+![image](https://github.com/user-attachments/assets/9e28ce6d-ad7c-49ff-9da5-a5bef030b7c7)
 
 The above chart shows the value for the average actual price vs the discounted price by Category
  #### Q6 Which products have the highest number of reviews?
- ![image](https://github.com/user-attachments/assets/acad78ef-15a9-46bc-972a-864e321d7415)
+![image](https://github.com/user-attachments/assets/83c1ced3-4c30-470e-bd77-1e6e6ca762bb)
 
-The product with the highest number of reviews is 
+The chart above shows the Products with the highest number of reviews
  
 
 #### Q7 How many products have a discount of 50% or more?
