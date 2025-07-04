@@ -15,7 +15,6 @@ TotalFields: 16 columns
 
 ## Tools Used
 - Excel [Download here](www.microsoft.com)
-- Power BI
 
 ## Analysis Tasks
 Use pivot tables and calculated columns where necessary to answer the following:
