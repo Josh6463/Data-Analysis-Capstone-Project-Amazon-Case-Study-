@@ -87,41 +87,48 @@ Downloaded the dataset from LMs containing Amazon Product transactions, includin
   2. Structured the GitHub repository with clear explanations and organized folders.
 
 ### Anatical answers to the Questions Asked in the Project
-####  What is the average discount percentage by product category?
+#### Q1  What is the average discount percentage by product category?
 - The below visuals shows the various average discount% by Category and Home Improvement Category to be the Category with the highest Average  Discount% while Toy&Game Category had no Average Discount%.
  ![QUES 1(Chart)](https://github.com/user-attachments/assets/4d0cbf0f-3419-4ed4-9097-2f3dec77757d)
 
  ![Question 1 Average Discount% by  Category](https://github.com/user-attachments/assets/1b790987-2d60-4f70-8627-ba6a7bd115cf)
 
-#### How Many Products are Listed Under each Category
+#### Q2 How Many Products are Listed Under each Category
 - The Chart below shows that Car and Motorbike has 1 product,Computer and Accessory has 453 products,Electronics has 526 products,Health and Personal care has 1 product,Home and Kitchen has 448, Home and Improvement has 2, Musical Instrument has 2,Office Products has 31 and Toys and Games has 1 Product.
 - ![Question2(chart)](https://github.com/user-attachments/assets/f98537c1-46a8-43a8-84a9-66064e1a7585)
 
-####  What is the total number of reviews per category?
+#### Q3  What is the total number of reviews per category?
 ![Question 3 (chart)](https://github.com/user-attachments/assets/520b9cba-4495-4501-91f0-1951fc3fc932)
 - The above chart provide the Total Number of Review Per Category with Electronic to be Highest Number of review while Car and Motorbike having the Lowest Number of review and reasoned for this answer can be deduced from the Number of Product Listed Under each Category.
 
-  #### Which products have the highest average ratings? (Question 4)
+  #### Q4 Which products have the highest average ratings? (Question 4)
   The products with the Highest Average Rating (426973) are 
    1. Product with Product ID of B014I8SSD0
    2. Product with Product ID of B014I8X4Y
 
-  ####  What is the average actual price vs the discounted price by category?
-![image](https://github.com/user-attachments/assets/56c33a8c-1332-4da5-b67b-3af941dedafc)
+  #### Q5 What is the average actual price vs the discounted price by category?
+![image](https://github.com/user-attachments/assets/83c1ced3-4c30-470e-bd77-1e6e6ca762bb)
+
+The chart above shows the products with the highest number of reviews
 
 The above chart shows the value for the average actual price vs the discounted price by Category
+ #### Q6 Which products have the highest number of reviews?
+ ![image](https://github.com/user-attachments/assets/acad78ef-15a9-46bc-972a-864e321d7415)
 
-#### How many products have a discount of 50% or more?
+The product with the highest number of reviews is 
+ 
+
+#### Q7 How many products have a discount of 50% or more?
 The Number of Products with a discount of 50%  or more is 751 showing that the products with 50% or more Discount is more than the products with less than 50% Discount
 
 ![image](https://github.com/user-attachments/assets/6ce59073-6a39-4b77-be40-1dea0c72d888)
 
-#### What is the distribution of product ratings (e.g., how many products are rated 3.0,
+#### Q8 What is the distribution of product ratings (e.g., how many products are rated 3.0,
 ![image](https://github.com/user-attachments/assets/5cae9088-1b31-414e-adc1-e76345f26404)
 
 The above chart shows that the most Product Rating falls within the range of 3.7-4.5 which could mean that the customers are generally satisfied and Amazon Maintains a high quality product base.
 
-#### What is the total potential revenue (actual_price × rating_count) by category?
+#### Q9 What is the total potential revenue (actual_price × rating_count) by category?
 This provide the estimated total Income a category could generate if every Customer who rated a product actually bought the product.
  The Formulae used to format the potential revenue is 
    ```Potential Revenue = actual Price * Rating Count```
