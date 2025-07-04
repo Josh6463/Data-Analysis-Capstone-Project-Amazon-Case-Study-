@@ -13,7 +13,7 @@ Total Records: 1,465 rows
 TotalFields: 16 columns
 
 ## Tools Used
-- Excel [Downloadhere](www.microsoft.com)
+- Excel [Downloadhere](https://www.microsoft.com/en-us/microsoft-365/excel)
 
   ##  Introduction
 In today’s data-driven e-commerce landscape, understanding customer behavior, product performance, and regional trends is crucial for maximizing profitability and enhancing customer satisfaction. This project presents a comprehensive analysis of Amazon sales data with the aim of uncovering key business insights through data visualization and reporting.
