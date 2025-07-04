@@ -199,7 +199,11 @@ The top 5 products in terms of rating and number of reviews are
 - product with ID of B07KsMBL2H
 - product with ID of B071Z8M4KX
 - product with ID of B07GQD4k6L
- 
+
+ ### Insight and Recommendation
+-  I found out that the Toy&games,Health and Personalcare,Car&Motorbike  Category have only one Product ID, and lower Discount% which might be the reason why they have a lower Rating,sum of Rating Count,and lower sum of Potential Revenue. Based on this finding I would recommend that the Discount% and the Number of Product ID should be Increased Inorder to Increase the sum of Potential Revenue and the Rating Count.
+-  Based on the Relationship between the Discount Percentage and the rating, I found out that the Rating dosen't really depend on the Discount%. I would recommend that the Platform should Prioritise High Quality Product,Customer Relationship and effective marketing strategy above Discount strategy.
+- The Distribution by Product Rating Curve cluster around the rating of 3.5-4.5 which depict the platform Products are satisfactory to the customers that purchases it, This actually shows that the Platforms Products are of good Quality and to maintain this distribution by rating Count,priority must be placed on Quality of Products.
 
 
    
