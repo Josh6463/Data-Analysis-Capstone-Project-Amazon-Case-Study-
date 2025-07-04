@@ -1,5 +1,4 @@
-#  Project Title
- Amazon Product Review Analysis
+#  CASE STUDY 1: AMAZONE PRODUCT REVIEW ANALYSIS
 
 ##  Brief Description of the Project
 This project explores Amazon's sales data to extract actionable business insights using Excel and Power BI. It involves data cleaning, exploration, visualization, and key performance indicator tracking
@@ -14,10 +13,23 @@ Total Records: 1,465 rows
 TotalFields: 16 columns
 
 ## Tools Used
-- Excel [Download here](www.microsoft.com)
+- Excel [Downloadhere](www.microsoft.com)
 
-## Analysis Tasks
-Use pivot tables and calculated columns where necessary to answer the following:
+  ##  Introduction
+In today’s data-driven e-commerce landscape, understanding customer behavior, product performance, and regional trends is crucial for maximizing profitability and enhancing customer satisfaction. This project presents a comprehensive analysis of Amazon sales data with the aim of uncovering key business insights through data visualization and reporting.
+
+## The primary objective of this case study is to:
+
+- Evaluate Products and profitability trends across the categories.
+- Understand customer purchase behavior through ratings and return analysis.
+- Identify underperforming poduct and highly performing product to recommend business improvements.
+
+This analysis helps to simulate a real-world scenario in which a data analyst supports strategic decision-making at a large-scale online retailer like Amazon. Whether you are a business stakeholder or a fellow data enthusiast, this case study provides valuable insights into how raw data can be transformed into powerful business intelligence.
+
+## EXPLORATIONAL DATA ANALYSIS
+We analysis the given data to provide insight and recommendation to the following 
+Business Questions. 
+
 1. What is the average discount percentage by product category?
 2. How many products are listed under each category?
 3. What is the total number of reviews per category?
@@ -36,21 +48,9 @@ Use pivot tables and calculated columns where necessary to answer the following:
 14. Identify the top 5 products in terms of rating and number of reviews combined.
 4. Final Task: Dashboard Creation
 Using your cleaned dataset and pivot outputs, build an Excel dashboard. Unleash your
-Creativity
+Creativity.
 
-##  Introduction
-In today’s data-driven e-commerce landscape, understanding customer behavior, product performance, and regional trends is crucial for maximizing profitability and enhancing customer satisfaction. This project presents a comprehensive analysis of Amazon sales data with the aim of uncovering key business insights through data visualization and reporting.
-Using tools like Microsoft Excel and Power BI, the project covers essential processes such as data cleaning, exploration, aggregation, and dashboard creation. The dataset includes various fields such as Product IDs, review content, review names, product categories,actual price, discounts Percentage, ratings,and rating count - offering a rich foundation for analysis.
-
-The primary objective of this case study is to:
-
-- Evaluate Products and profitability trends across the categories.
-- Understand customer purchase behavior through ratings and return analysis.
-- Identify underperforming poduct and highly performing product to recommend business improvements.
-
-This analysis helps to simulate a real-world scenario in which a data analyst supports strategic decision-making at a large-scale online retailer like Amazon. Whether you are a business stakeholder or a fellow data enthusiast, this case study provides valuable insights into how raw data can be transformed into powerful business intelligence.
-
-### Steps Taken in the Analysis
+### ANALYTICAL PROCESSES
          Data Collection
 Downloaded the dataset from LMs containing Amazon Product transactions, including columns such as Product ID, Rating, Rating Count, Category,Product Name, Discount, Actual Price, and some other Important Data for the Analysis.
 
@@ -64,7 +64,7 @@ Downloaded the dataset from LMs containing Amazon Product transactions, includin
 
 - Ensured proper data types were assigned (e.g.,text, number).
 
--  Data Exploration (Excel)
+-  Data Exploration 
 1. Used Excel functions (like SUMIFS, AVERAGEIFS, COUNTIFS) to summarize key metrics.
 
 2. Created pivot tables and charts to uncover sales patterns, returns, and customer distribution.
